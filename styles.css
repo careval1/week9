@@ -1,3 +1,4 @@
+/* General body styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f5f7fa;
@@ -5,21 +6,25 @@ body {
   text-align: center;
 }
 
+/* Header section styling */
 header {
   background-color: #f0f8ff;
   padding: 20px;
   border-radius: 8px;
 }
 
+/* Header title */
 header h1 {
   color: #003366;
   margin-bottom: 5px;
 }
 
+/* Paragraph text color */
 p {
   color: #444;
 }
 
+/* Table layout and appearance */
 table {
   width: 80%;
   margin: 30px auto;
@@ -28,16 +33,19 @@ table {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+/* Table cells border and padding */
 th, td {
   border: 2px solid #003366;
   padding: 12px;
 }
 
+/* Table header styling */
 th {
   background-color: #003366;
   color: white;
 }
 
+/* Links inside table cells */
 td a {
   color: #cc3300;
   text-decoration: none;
@@ -47,6 +55,7 @@ td a:hover {
   text-decoration: underline;
 }
 
+/* Footer styling */
 footer {
   margin-top: 20px;
   font-size: 0.9em;
