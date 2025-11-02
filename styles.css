@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-color: #f0f8ff; /* azul claro de prueba */
+  background-color: #f0f8ff;
   padding: 20px;
   border-radius: 8px;
 }
@@ -39,7 +39,7 @@ th {
 }
 
 td a {
-  color: #cc3300; /* rojo de prueba */
+  color: #cc3300;
   text-decoration: none;
 }
 
