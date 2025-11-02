@@ -1,32 +1,28 @@
-/* General body styles */
+/* Body styling */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f5f7fa;
+  background-color: #f9fafb;
   margin: 40px;
   text-align: center;
+  color: #333;
 }
 
-/* Header section styling with gradient and shadow */
+/* Header with gradient and shadow */
 header {
-  background: linear-gradient(to right, #f0f8ff, #d0e4f5);
+  background: linear-gradient(to right, #0077b6, #90e0ef);
   padding: 25px;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #fff;
 }
 
-/* Header title with subtle text shadow */
+/* Header title styling */
 header h1 {
-  color: #003366;
-  margin-bottom: 10px;
   text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+  margin-bottom: 10px;
 }
 
-/* Paragraph text color */
-p {
-  color: #444;
-}
-
-/* Table layout and appearance with rounded corners and shadow */
+/* Table layout and appearance */
 table {
   width: 80%;
   margin: 30px auto;
@@ -38,40 +34,42 @@ table {
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
-/* Table cells border and padding */
-th, td {
+/* Table header styling */
+th {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 15px;
+}
+
+/* Table cells and hover effect */
+td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
 }
 
-/* Table header styling */
-th {
-  background-color: #003366;
-  color: white;
-  padding: 15px;
+tr:nth-child(even) {
+  background-color: #f0f8ff;
 }
 
-/* Hover effect for table rows */
 tr:hover {
-  background-color: #f5f7fa;
+  background-color: #e0f7ff;
 }
 
-/* Links inside table cells with hover effect */
+/* Airline links */
 td a {
-  color: #0066cc;
+  color: #ff6700;
   font-weight: bold;
   text-decoration: none;
 }
 
 td a:hover {
-  color: #ff6600;
   text-decoration: underline;
 }
 
-/* Footer styling with background and padding */
+/* Footer styling */
 footer {
   margin-top: 30px;
-  padding: 15px;
+  padding: 20px;
   background-color: #f0f0f0;
   border-radius: 8px;
   font-size: 0.9em;
