@@ -34,6 +34,18 @@ table {
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
+/* Table caption styling */
+table caption {
+  caption-side: top;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #ff6700;
+  margin-bottom: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 /* Table header styling */
 th {
   background-color: #0077b6;
